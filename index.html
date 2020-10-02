@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Slick styles -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <!-- Foundation styles -->
+    <link rel="stylesheet" href="foundation-style/foundation.css">
+    <!-- Main styles -->
+    <link rel="stylesheet" href="main-style/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <div class="logo__main">car<span>garage</span> </div>
+                <div class="logo__secondary">part of <span> 878xDrive</span></div>
+            </div>
+            <div class="logo__phone"> <span>Call</span> <a href="01273-123456">01273-123456</a></div>
+        </div>
+    </header>
+    <!-- Navigation sectioon -->
+    <section class="navigation">
+        <nav class="navigation__container">
+            <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+                <div class="title-bar-title">Menu</div>
+            </div>
+            <div id="example-menu">
+                <div class="top-bar-center">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li class="dropdown__element"><a href="#">Home</a></li>
+                        <li class="dropdown__element"><a href="#">Used Cars</a></li>
+                        <li class="dropdown__element"><a href="#">Service</a></li>
+                        <li class="dropdown__element"><a href="#">Finance</a></li>
+                        <li class="dropdown__element"><a href="#">Warranty</a></li>
+                        <li class="dropdown__element"><a href="#">About</a></li>
+                        <li class="dropdown__element"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Main slider section -->
+    <section class="main__slider">
+
+        <div class="slider__container">
+            <img class="slider__image slider__image-desktop" src="images/primary-image.jpg" alt="primary-image">
+            <img class="slider__image slider__image-mobile" src="images/primary-image.jpg" alt="primary-image-mobile">
+        </div>
+        <div class="slider__container">
+            <img class="slider__image slider__image-desktop" src="images/primary-image.jpg" alt="primary-image">
+            <img class="slider__image slider__image-mobile" src="images/primary-image.jpg" alt="primary-image-mobile">
+        </div>
+        <div class="slider__container">
+            <img class="slider__image slider__image-desktop" src="images/primary-image.jpg" alt="primary-image">
+            <img class="slider__image slider__image-mobile" src="images/primary-image.jpg" alt="primary-image-mobile">
+        </div>
+
+    </section>
+    <!-- Form section -->
+    <section class="form">
+        <form>
+            <div class="form__selects grid-x">
+                <div class="form__select columns small-12 medium-6 large-3">
+                    <select class="select" name="all-makes" id="all-makes">
+                        <option class="select__option" value="" selected disabled hidden>All Makes</option>
+                        <option class="select__option" value="1">Option 1</option>
+                        <option class="select__option" value="2">Option 2</option>
+                        <option class="select__option" value="3">Option 3</option>
+                        <option class="select__option" value="4">Option 4</option>
+                    </select>
+                </div>
+                <div class="form__select columns small-12 medium-6 large-3">
+                    <select class="select" name="all-models" id="all-models">
+                        <option class="select__option" value="" selected disabled hidden>All Models</option>
+                        <option class="select__option" value="1">Option 1</option>
+                        <option class="select__option" value="2">Option 2</option>
+                        <option class="select__option" value="3">Option 3</option>
+                        <option class="select__option" value="4">Option 4</option>
+                    </select>
+                </div>
+                <div class="form__select columns small-12 medium-6 large-3">
+                    <select class="select" name="all-makes" id="all-makes">
+                        <option class="select__option" value="" selected disabled hidden>Min Price</option>
+                        <option class="select__option" value="1">Option 1</option>
+                        <option class="select__option" value="2">Option 2</option>
+                        <option class="select__option" value="3">Option 3</option>
+                        <option class="select__option" value="4">Option 4</option>
+                    </select>
+                </div>
+                <div class="form__select columns small-12 medium-6 large-3">
+                    <select class="select" name="all-makes" id="all-makes">
+                        <option class="select__option" value="" selected disabled hidden>Max Price</option>
+                        <option class="select__option" value="1">Option 1</option>
+                        <option class="select__option" value="2">Option 2</option>
+                        <option class="select__option" value="3">Option 3</option>
+                        <option class="select__option" value="4">Option 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form__submit">
+                <input type="submit" value="Search">
+            </div>
+        </form>
+
+    </section>
+    <section class="products">
+        <div class="products__container grid-x">
+
+            <div class="product columns small-12 medium-6 large-3">
+                <a href="#">
+                    <div class="product__container">
+                        <div class="product__image product__image-usedcars"></div>
+                        <p class="product__title">Used Cars</p>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+                            enim.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product columns small-12 medium-6 large-3">
+                <a href="#">
+                    <div class="product__container">
+                        <div class="product__image product__image-service"></div>
+                        <p class="product__title">Service</p>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+                            enim.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product columns small-12 medium-6 large-3">
+                <a href="#">
+                    <div class="product__container">
+                        <div class="product__image product__image-finance"></div>
+                        <p class="product__title">Finance</p>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+                            enim.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product columns small-12 medium-6 large-3">
+                <a href="#">
+                    <div class="product__container">
+                        <div class="product__image product__image-warranty"></div>
+                        <p class="product__title">Warranty</p>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+                            enim.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="description">
+        <div class="description__container">
+            <h2 class="description__header headers">Used Cars Brighton, East Sussex</h2>
+            <p class="description__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                delectus, necessitatibus distinctio placeat culpa id at ipsam autem rem earum eligendi soluta eos
+                rerum quia repellat fugiat tenetur libero quis maxime atque voluptatibus doloremque qui laborum!
+                Voluptatum adipisci at culpa unde ad, non voluptate minus incidunt eos earum provident enim ratione
+                nulla hic. Dolorem fugiat ut impedit, delectus dignissimos nesciunt quam porro veniam explicabo aut,
+                alias dolores quod perferendis enim accusamus quo saepe a accusantium laboriosam consectetur
+                corrupti. Beatae dignissimos, ipsum nostrum velit tenetur dolore amet. Sapiente fuga asperiores at
+                consequatur id voluptatem neque? Veniam adipisci veritatis voluptas unde dolorum!</p>
+        </div>
+
+    </section>
+    <section class="slider__container">
+        <h2 class="slider__title headers">Feature Vehicles</h2>
+        <div class="slider__products">
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+            <div class="slider__product">
+                <a href="#">
+                    <img src="images/featured-vehicle.jpg" alt="featured-vehiclee">
+                    <i class="far fa-heart slider__icon"></i>
+                    <p class="slider__description">2015 Nissan Micra</p>
+                    <p class="slider__description slider__description-secondary">1.2 Acenta 5dr</p>
+                    <p class="slider__price">£3.980</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section class="path">
+        <div class="path__container">
+            <p class="path__description">Home</p>
+            <p class="path__description"><i class="fas fa-angle-right"></i></p>
+            <p class="path__description">Used Cars</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="footer__info">Nissan Audi Vauxhall Ford Toyota Land Rover Bmw Seat</div>
+            <div class="footer__info">Disclaimer Cookie Policy</div>
+            <div class="footer__info">Adress Line1, Address Line 2, Town, County, Post Code</div>
+            <div class="footer__info">© 2016 All Rights Reserved Website by 67degrees</div>
+        </div>
+    </footer>
+
+    <!-- Fouadation scripts -->
+    <script src="foundation-script/vendor/jquery.js"></script>
+    <script src="foundation-script/vendor/what-input.js"></script>
+    <script src="foundation-script/vendor/foundation.js"></script>
+    <script src="foundation-script/app.js"></script>
+    <!-- JQuery scripts -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Slick script -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Main script -->
+    <script type="text/javascript" src="main-script/script.js"></script>
+</body>
+
+</html>
